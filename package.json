@@ -1,7 +1,7 @@
 {
   "name": "vue-onsenui-cordova-iphonex",
   "version": "1.0.0",
-  "description": "An example project supporting iPhone X using Onsen UI.",
+  "description": "An example Cordova project supporting iPhone X using Onsen UI.",
   "author": "Naoki Matagawa <naoki.m@asial.co.jp>",
   "private": true,
   "scripts": {
