@@ -26,6 +26,13 @@ export default {
       animation: 'fade',
     };
   },
+  beforeMount() {
+    const html = document.documentElement;
+    if (this.$ons.platform.isIPhoneX()) {
+      html.setAttribute('onsflag-iphonex-portrait', '');
+      html.setAttribute('onsflag-iphonex-landscape', '');
+    }
+  },
 };
 </script>
 

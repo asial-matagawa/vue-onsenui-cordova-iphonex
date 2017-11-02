@@ -167,12 +167,6 @@ export default {
       ],
     };
   },
-  beforeMount() {
-    const html = document.documentElement;
-    if (this.$ons.platform.isIPhoneX()) {
-      html.setAttribute('onsflag-iphonex-landscape', '');
-    }
-  },
 };
 </script>
 
