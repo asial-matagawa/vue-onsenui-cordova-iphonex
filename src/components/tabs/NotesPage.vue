@@ -22,7 +22,7 @@
       <v-ons-list-title style="margin-top: 28px; margin-bottom: 3px;">NOTES</v-ons-list-title>
       <v-ons-list>
         <template v-for="noteGroup of noteGroups">
-          <v-ons-list-header>{{noteGroup.name}}</v-ons-list-header>
+          <v-ons-list-header :key="noteGroup.name">{{noteGroup.name}}</v-ons-list-header>
           <v-ons-list-item v-for="note of noteGroup.notes" :key="note.title" tappable modifier="chevron">
             <div class="center">
               <div class="list-item__title">{{note.title}}</div>
