@@ -17,7 +17,7 @@ export default {
         {
           icon: 'fa-book',
           label: 'Notes',
-          page: { // Pass a Vue component
+          page: { // defined as Vue component
             template: `
               <v-ons-page>
                 <v-ons-toolbar>
@@ -79,7 +79,7 @@ export default {
             },
             methods: {
               showNewNotePage() {
-                this.$emit('push-page', { // Pass a Vue component
+                this.$emit('push-page', { // defined as Vue component
                   template: `
                     <v-ons-page>
                       <v-ons-toolbar>
