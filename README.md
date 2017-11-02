@@ -20,6 +20,7 @@ npm run build
 npm run build --report
 
 # run on iPhone X or its simulator
+cordova platform add ios
 npm run build && cordova run ios --target="iPhone-X"
 ```
 
